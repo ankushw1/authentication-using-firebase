@@ -1,0 +1,130 @@
+.formContainer {
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .formWrapper {
+      background-color: white;
+      padding: 20px 60px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+  
+      .logo {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+      }
+  
+      .title {
+        color: blue;
+        font-weight: bold;
+        font-size: 20px;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+  
+      input {
+        padding: 15px;
+        border: none;
+        width: 250px;
+        height: 10px;
+        border-radius: 10px;
+      }
+  
+      button {
+        background-color: #7b96ec;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+  
+      label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: blue;
+        font-size: 12px;
+        cursor: pointer;
+  
+        img {
+          width: 32px;
+        }
+      }
+    }
+    p {
+      color: black;
+      font-size: 15px;
+      margin-top: 10px;
+    }
+  }
+  
+  .home {
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .container {
+      border: 1px solid white;
+      border-radius: 10px;
+      width: 65%;
+      height: 80%;
+      display: flex;
+      overflow: hidden;
+  
+      .sidebar {
+        flex: 1;
+        background-color: #3e3c61;
+  
+        .search {
+          border-bottom: 1px solid gray;
+
+        }
+
+      }
+
+  
+        .input {
+          height: 50px;
+          background-color: white;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+          input {
+            width: 100%;
+            border: none;
+            outline: none;
+            color: #2f2d52;
+            font-size: 18px;
+  
+            &::placeholder {
+              color: black;
+            }
+          }
+
+            button {
+              border: none;
+              padding: 10px 15px;
+              color: white;
+              background-color: #5d5b8d;
+              border-radius: 10px;
+            }
+          }
+        }
+      }
